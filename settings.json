@@ -1,9 +1,22 @@
 {
+    // vscode settings
     "editor.lineNumbers": "relative",
     "editor.fontSize": 13.5,
     "terminal.integrated.fontSize": 13,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "window.zoomLevel": 1,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.enablePreview": false,
+    "window.menuBarVisibility": "default",
 
-    // vim things
+    "todohighlight.isCaseSensitive": false,
+
+    // vsvim settings
     "vim.leader": ",",
     "vim.insertModeKeyBindings": [
         {
@@ -61,17 +74,6 @@
         "visualline": "#005f87",
         "visualblock": "#86592d",
         "replace": "#000000"
-    },
-
-    // other things
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "window.zoomLevel": 1,
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#005f5f",
-        "statusBar.noFolderBackground": "#005f5f",
-        "statusBar.debuggingBackground": "#005f5f"
-    },
-    "workbench.iconTheme": "material-icon-theme",
-    "window.menuBarVisibility": "default"
-    // eslint things
+    }
+    // eslint settings
 }

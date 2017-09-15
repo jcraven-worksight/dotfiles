@@ -1,0 +1,46 @@
+<l><l> s <char>		- Search character
+<l><l> f <char>		- Find character forwards
+<l><l> F <char>		- Find character backwards
+<l><l> t <char>		- Til character forwards
+<l><l> T <char>		- Til character backwards
+<l><l> w		- Start of word forwards
+<l><l> b		- Start of word backwards
+<l><l> e		- End of word forwards
+<l><l> ge		- End of word backwards
+<l><l> j		- Start of line forwards
+<l><l> k		- Start of line backwards
+<l><l> / <char>... <CR>	- Search n-character
+
+d s <existing char>			- Delete existing surround
+c s <existing char> <desired char>	- Change surround existing to desired
+y s <motion> <desired char>	Surround something with something using motion (as in "you surround")
+S <desired char>	Surround in visual modes
+
+gd 		- jump to definition. 
+gq 		- on a visual selection - Reflow and wordwrap blocks of text, preserving commenting style. 
+gb 		- adds cursor on the next word it finds which is the same as the word under the cursor.
+af 		- selects increasingly large blocks of text. (from visual mode)
+gh 		- equivalent to hovering your mouse over wherever the cursor is.
+
+gC 		- toggles block comment. For example gCi)jkkj
+<c-k> <c-f> 	- format code
+f2      	- rename symbol
+<c-b>		- close / open sidebar
+f4 		- open next file down from searched things
+f1		- find all references
+<c-s> o 	- goto symbols - then hit : to group by type (ex classes, methods)
+<c-t> 		- open symbol by name
+<s f1> 		- open in explorer
+<s f2>  	- show in sidebar
+
+vs debugging
+<c f10> 	- run to line with cursor
+<c ->   	- takes you from current position to last line
+<c s> f10 	- move cursor to that line
+
+resharper
+<c a> f7 	- find method references
+<c b>      	- goto definition
+<c a> b   	- show subclasses
+<c s> n  	- goto file (ctrl p)
+

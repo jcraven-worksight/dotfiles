@@ -59,7 +59,9 @@
         "<C-w>": false,
         "<C-b>": false,
         "<C-k>": false,
-        "<C-f>": false
+        "<C-f>": false,
+        "<C-n>": false,
+        "<C-t>": false
     },
     "vim.useCtrlKeys": true,
     "vim.disableAnnoyingNeovimMessage": true,

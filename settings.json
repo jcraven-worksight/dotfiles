@@ -2,6 +2,7 @@
     // vscode settings
     "editor.lineNumbers": "relative",
     "editor.fontSize": 13.5,
+    "editor.tabSize": 2,
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "window.zoomLevel": 1,
@@ -15,6 +16,7 @@
     "window.menuBarVisibility": "default",
 
     "todohighlight.isCaseSensitive": false,
+    // "todohighlight.isEnable": false,
 
     // vsvim settings
     "vim.leader": ",",
@@ -61,7 +63,8 @@
         "<C-k>": false,
         "<C-f>": false,
         "<C-n>": false,
-        "<C-t>": false
+        "<C-t>": false,
+        "<C-y": false
     },
     "vim.useCtrlKeys": true,
     "vim.disableAnnoyingNeovimMessage": true,
@@ -76,6 +79,9 @@
         "visualline": "#005f87",
         "visualblock": "#86592d",
         "replace": "#000000"
-    }
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.colorTheme": "Dark Chrome DevTools",
+    "extensions.ignoreRecommendations": false
     // eslint settings
 }

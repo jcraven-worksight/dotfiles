@@ -81,7 +81,8 @@
         "replace": "#000000"
     },
     "editor.multiCursorModifier": "ctrlCmd",
+    "extensions.ignoreRecommendations": false,
     "workbench.colorTheme": "Dark Chrome DevTools",
-    "extensions.ignoreRecommendations": false
+    "explorer.confirmDelete": false
     // eslint settings
 }

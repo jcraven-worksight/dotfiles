@@ -1,5 +1,7 @@
 {
-    // vscode settings
+  // Controls the font family.
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",    // vscode settings
+
     "editor.lineNumbers": "relative",
     "editor.fontSize": 13.5,
     "editor.tabSize": 2,
@@ -11,7 +13,6 @@
         "statusBar.noFolderBackground": "#005f5f",
         "statusBar.debuggingBackground": "#005f5f"
     },
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.enablePreview": false,
     "window.menuBarVisibility": "default",
 
@@ -64,10 +65,11 @@
         "<C-f>": false,
         "<C-n>": false,
         "<C-t>": false,
-        "<C-y": false
+        "<C-y>": false
     },
     "vim.useCtrlKeys": true,
-    "vim.disableAnnoyingNeovimMessage": true,
+    // "vim.disableAnnoyingNeovimMessage": true,
+    "vim.substituteGlobalFlag": true,
     "vim.useSystemClipboard": true,
     "vim.easymotion": true,
     "vim.easymotionMarkerFontSize": "15",
@@ -80,9 +82,15 @@
         "visualblock": "#86592d",
         "replace": "#000000"
     },
-    "editor.multiCursorModifier": "ctrlCmd",
+    // "editor.multiCursorModifier": "ctrlCmd",
     "extensions.ignoreRecommendations": false,
     "workbench.colorTheme": "Dark Chrome DevTools",
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.statusBar.feedback.visible": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.showUpdateMessage": false
     // eslint settings
 }

@@ -16,15 +16,12 @@ c s <existing char> <desired char>	- Change surround existing to desired
 y s <motion> <desired char>		- Surround something with something using motion (as in "you surround")
 S <desired char>			- Surround in visual modes
 
-gd 	- jump to definition. 
 gq 	- on a visual selection - Reflow and wordwrap blocks of text, preserving commenting style. 
 gb 	- adds cursor on the next word it finds which is the same as the word under the cursor.
 af 	- selects increasingly large blocks of text. (from visual mode)
 gh 	- equivalent to hovering your mouse over wherever the cursor is.
 gC 	- toggles block comment. For example gCi)jkkj
-f2      - rename symbol
 f4 	- open next file down from searched things
-f1	- find all references
 <c-s> o - goto symbols - then hit : to group by type (ex classes, methods)
 <c-t> 	- open symbol by name
 <s f1> 	- open in explorer
@@ -33,11 +30,29 @@ f1	- find all references
 vs debugging
 <c f10> 	- run to line with cursor
 <c ->   	- takes you from current position to last line
-<c s> f10 	- move cursor to that line
 
 resharper
 <c a> f7 	- find method references
 <c b>      	- goto definition
 <c a> b   	- show subclasses
 <c s> n  	- goto file (ctrl p)
+<c n>		- goto symbol
 
+vsvim
+aw              - text object a word that includes spaces. can use da to delete parens/brackets too
+di' ci" etc     - can do from anywhere on line, it will find first instance
+;               - repeat last search (bound to something else right now in vscode)
+*		- next occurance of current word. also enters that word into search history, so you can n for the next one
+= 		- autoindent
+yt{char}	- I always visual select first, then do operations. ex yanking, deleting. but that isn't needed. another ex. d2j 
+R		- from normal mode, enter replace mode
+gv  		- reselect last visual selection
+o		- while visual selecting, go back to the 'free end'
+
+registers 
+"ry             - add selected text to register "r
+"rp		- pasting from register "r
+Ctrl-r r	- paste register r from insert mode
+:reg		- see registers
+	
+practical vim book: https://github.com/JackonYang/book/blob/master/calibre/Drew%20Neil/Practical%20Vim%20(33)/Practical%20Vim%20-%20Drew%20Neil.pdf

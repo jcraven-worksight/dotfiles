@@ -27,17 +27,6 @@ f4 	- open next file down from searched things
 <s f1> 	- open in explorer
 <s f2>  - show in sidebar
 
-vs debugging
-<c f10> 	- run to line with cursor
-<c ->   	- takes you from current position to last line
-
-resharper
-<c a> f7 	- find method references
-<c b>      	- goto definition
-<c a> b   	- show subclasses
-<c s> n  	- goto file (ctrl p)
-<c n>		- goto symbol
-
 vsvim
 aw              - text object a word that includes spaces. can use da to delete parens/brackets too
 di' ci" etc     - can do from anywhere on line, it will find first instance
@@ -56,3 +45,15 @@ Ctrl-r r	- paste register r from insert mode
 :reg		- see registers
 	
 practical vim book: https://github.com/JackonYang/book/blob/master/calibre/Drew%20Neil/Practical%20Vim%20(33)/Practical%20Vim%20-%20Drew%20Neil.pdf
+
+
+vs debugging
+<c f10> 	- run to line with cursor
+<c ->   	- takes you from current position to last line
+
+resharper
+<c a> f7 	- find method references
+<c b>      	- goto definition
+<c a> b   	- show subclasses
+<c s> n  	- goto file (ctrl p)
+<c n>		- goto symbol

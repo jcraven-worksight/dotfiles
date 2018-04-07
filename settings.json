@@ -1,13 +1,12 @@
 {
   // Controls the font family.
     "editor.fontFamily": "Consolas, 'Courier New', monospace",    // vscode settings
-
     "editor.lineNumbers": "relative",
     "editor.fontSize": 13.5,
     "editor.tabSize": 2,
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0.5,
     "workbench.colorCustomizations": {
         "statusBar.background": "#005f5f",
         "statusBar.noFolderBackground": "#005f5f",
@@ -15,11 +14,12 @@
     },
     "workbench.editor.enablePreview": false,
     "window.menuBarVisibility": "default",
+    "telemetry.enableTelemetry": false, // dont send usage 
 
     "todohighlight.isCaseSensitive": false,
     // "todohighlight.isEnable": false,
 
-    // vsvim settings
+    // vsvim
     "vim.leader": ",",
     "vim.insertModeKeyBindings": [
         {
@@ -33,6 +33,7 @@
             "after": [":"]
         },
         { 
+        // close and save
             "before": ["z", "z"],
             "after": [],
             "commands": [
@@ -68,7 +69,6 @@
         "<C-y>": false
     },
     "vim.useCtrlKeys": true,
-    // "vim.disableAnnoyingNeovimMessage": true,
     "vim.substituteGlobalFlag": true,
     "vim.useSystemClipboard": true,
     "vim.easymotion": true,
@@ -91,6 +91,18 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.showUpdateMessage": false
+    "material-icon-theme.showUpdateMessage": false,
+    "gitlens.keymap": "chorded",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    }
+
     // eslint settings
 }

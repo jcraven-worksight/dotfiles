@@ -23,16 +23,6 @@
         "command": "workbench.files.action.showActiveFileInExplorer"
     },
     {
-        "key": "f5",
-        "command": "-workbench.action.debug.continue",
-        "when": "inDebugMode"
-    },
-    {
-        "key": "f5",
-        "command": "-workbench.action.debug.start",
-        "when": "!inDebugMode"
-    },
-    {
         "key": "ctrl+k ctrl+k",
         "command": "workbench.action.closeFolder"
     },
@@ -52,5 +42,18 @@
     { 
         "key": "ctrl+-",
         "command": "" 
-    }
+    },
+    {
+        "key": "alt+`",
+        "command": "workbench.debug.action.toggleRepl"
+    },
+    {
+        "key": "alt+`",
+        "command": "workbench.debug.action.focusRepl",
+        "when": "!inDebugRepl"
+    },
+    {
+        "key": "ctrl+shift+y",
+        "command": "-workbench.debug.action.toggleRepl"
+    },
 ]

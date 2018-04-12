@@ -5,13 +5,13 @@
 * `gq` 	                                  - on a visual selection - Reflow and wordwrap blocks of text, preserving commenting style. 
 * `gb` 	                                  - adds cursor on the next word it finds which is the same as the word under the cursor.
 * `af` 	                                  - selects increasingly large blocks of text. (from visual mode)
-<!-- * gh 	                                  - equivalent to hovering your mouse over wherever the cursor is. -->
+* `gh` 	                                  - equivalent to hovering your mouse over wherever the cursor is.
 * `gC` 	                                  - toggles block comment. For example gCi)jkkj
 * `f4` 	                                  - open next file down from searched things
-<!-- * `<c-s> o`                              - goto symbols - then hit : to group by type (ex classes, methods) -->
+* `<c-s> o`                              - goto symbols - then hit : to group by type (ex classes, methods)
 * `<c-t>` 	                              - open symbol by name
-<!-- * `<s f1>` 	                            - open in explorer -->
-<!-- * `<s f2>`                              - show in sidebar -->
+* `<s f1>` 	                            - open in explorer
+* `<s f2>`                              - show in sidebar
 
 #### vsvim
 * `aw`                                    - text object, a word that includes spaces or other things like parens, backticks etc.  example: ya'
@@ -31,7 +31,7 @@
 * `:reg`		                              - see registers
 
 #### vsvim-easymotion
-* <l><l> s <char>		                - Search character
+* `<l><l> s <char>`		                - Search character
 * `<l><l> f <char>`		                  - Find character forwards
 * `<l><l> F <char>`	                  - Find character backwards
 * `<l><l> t <char>`		                  - Til character forwards
@@ -45,20 +45,20 @@
 * `<l><l> / <char>... <CR>`	          - Search n-character
 
 #### vsvim-suround
-<!-- * `d s <existing char>`			            - Delete existing surround -->
-<!-- * `c s <existing char> <desired char>`	- Change surround existing to desired -->
+* `d s <existing char>`			            - Delete existing surround
+* `c s <existing char> <desired char>`	- Change surround existing to desired
 * `y s <motion> <desired char>`		      - Surround something with something using motion (as in "you surround")
-<!-- * `S <desired char>`			                - Surround in visual modes -->
+* `S <desired char>`			                - Surround in visual modes
 
 ## visual studio
 ----
 #### debugging
-<!-- * `<c f10>` 	                            - run to line with cursor -->
+* `<c f10>` 	                            - run to line with cursor
 * `<c ->`   	                            - takes you from current position to last line
 
 #### resharper
 * `<c a> f7` 	                          - find method references
-<!-- * `<c b>`                                - goto definition -->
+* `<c b>`                                - goto definition
 * `<c a> b`                              - show subclasses
-<!-- * <c s> n`  	                          - goto file (ctrl p) -->
-<!-- * `<c n>`		                            - goto symbol -->
+* `<c s> n`  	                          - goto file (ctrl p)
+* `<c n>`		                            - goto symbol

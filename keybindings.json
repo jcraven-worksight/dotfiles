@@ -56,4 +56,8 @@
         "key": "ctrl+shift+y",
         "command": "-workbench.debug.action.toggleRepl"
     },
+    {
+        "key": ";",
+        "command": "extension.showCmdLine"
+    },
 ]

@@ -16,7 +16,7 @@
 * `<s-esc>                                - hide linter error
 
 #### vsvim
-* _`aw`_                                  - text object, a word that includes spaces or other things like parens, backticks etc.  example: ya'
+* `aw`                                    - text object, a word that includes spaces or other things like parens, backticks etc.  example: ya'
 * `di' ci" etc`                           - can do from anywhere on line, it will find first instance
 * `;`                                     - repeat last search (doesnt appear to work in vscode)
 * `*`		                                  - next occurance of current word. also enters that word into search history, so you can n for the next one
@@ -26,8 +26,9 @@
 * `gv`  		                              - reselect last visual selection
 * `o`		                                  - while visual selecting, go back to the 'free end'
 * `<c-R *>`                               - while in insert mode, paste last register
+* `gb`                                    - multicursor mode that doesnt really work
 
-#### registers 
+#### registers / buffers
 * `"ry`                                   - add selected text to register "r
 * `"rp`		                                - pasting from register "r
 * `Ctrl-r r`	                            - paste register r from insert mode
@@ -66,3 +67,6 @@
 * `<c s> n`  	                            - goto file (ctrl p)
 * `<c n>`		                              - goto symbol
 * `<shft alt l>`                          - show file in solution explorer
+
+#### git
+* `git reset HEAD -- .`                   - unstage all
